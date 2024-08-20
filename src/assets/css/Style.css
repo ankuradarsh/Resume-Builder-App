@@ -1,0 +1,15 @@
+@page{
+    size: A4;
+    margin: 2mm;
+}
+
+@media print {
+    .no-print{
+        display: none;
+    }
+}
+
+body{
+    margin: 0;
+    /* padding: 1em 3em; */
+}
